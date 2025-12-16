@@ -1,0 +1,38 @@
+===================================================
+Vlzz-Bot - Bitácora de Mantenimiento en Replit
+===================================================
+
+FECHA: 15 de Diciembre de 2025
+AUTOR: lagoss
+HOSTING PRINCIPAL: Replit
+MÉTODO 24/7: UptimeRobot (ping a la URL de Replit)
+
+---------------------------------------------------
+1. ESTADO DEL DESPLIEGUE (DEPLOYMENT)
+---------------------------------------------------
+- Estatus: Bot ONLINE y estable.
+- Último Reinicio Manual: [Indica la fecha y hora del último click en 'Run'].
+- URL Pública de Replit (para UptimeRobot): [Pega aquí la URL 'replit.dev'].
+- Token de Bot: Almacenado de forma segura en la Pestaña SECRETS de Replit (Clave: BOT_TOKEN).
+
+---------------------------------------------------
+2. REGISTRO DE EVENTOS CRÍTICOS Y CORRECCIONES
+---------------------------------------------------
+
+**[2025-12-15] - SOLUCIÓN A TRIPLE FALLA**
+  - Evento Crítico: Token filtrado en GitHub. Discord lo invalidó.
+  - Corrección:
+    1. Obtención de Nuevo Token y actualización en Replit Secrets.
+    2. Arreglo en GitHub: Archivo .env eliminado y añadido a .gitignore (Evitar futuras filtraciones).
+    3. Error de Comandos Duplicados Corregido: [Indica la causa y solución, ej: Se detuvo instancia local que competía con Replit].
+
+**[FECHA] - [Descripción del Evento o Corrección]**
+- [Detalla los pasos realizados para solucionar el problema o implementar el cambio.]
+
+---------------------------------------------------
+3. TAREAS PENDIENTES Y FUTURO MANTENIMIENTO
+---------------------------------------------------
+- [ ] **Optimización Replit:** Revisar logs para identificar si el bot está usando demasiada CPU o memoria (Explorando la pestaña Usage en Replit).
+- [ ] **Comando Nuevo:** Implementar el comando de ayuda avanzado `/ayuda`.
+- [ ] **Actualización de Librerías:** Correr 'npm update' (o 'pip install --upgrade') para mantener las dependencias al día.
+- [ ] **Mejora de Logs:** Implementar el uso del archivo `logs/` para guardar la actividad en lugar de solo imprimir en la consola.
